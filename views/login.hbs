@@ -1,0 +1,16 @@
+{{#if loginErrors}}
+    {{#each messages}}
+        {{this}}
+    {{/each}}
+{{/if}}
+
+<form class="" action="/login" method="post">
+  <label for="">Username</label><br>
+  <input type="text" name="username" value=""><br><br>  
+
+  <label for="">Password</label><br>
+  <input type="password" name="password" value=""><br><br>
+
+  <input type="hidden" name="_csrf" value="{{ csrfToken }}">
+  <input type="submit" name="" value="Register">
+</form>

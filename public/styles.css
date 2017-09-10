@@ -1,0 +1,59 @@
+*{
+  font-family: "Trebuchet MS", sans-serif;
+  font-size: 14px;
+}
+
+.header{
+  background: lightskyblue;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 600;
+  text-align: left;
+  padding: 10px;
+}
+
+.pri_btn{
+  background: skyblue;
+  color: #fff;
+  border-radius: 3px;
+  padding: 5px 15px;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px;
+}
+
+.pri_btn:hover{
+  background: lightskyblue;
+}
+
+.products{
+  padding: 10px;
+  border: 1px solid #eee;
+  border-radius: 3px;
+  display: inline-block;
+  margin-right: 5px;
+  margin-top: 5px;
+}
+
+.products > span{
+  display: block;
+}
+
+.products > div:last-of-type{
+  text-align: right;
+}
+
+.title{
+
+}
+
+.description{
+
+}
